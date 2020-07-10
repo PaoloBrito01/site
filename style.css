@@ -1,0 +1,28 @@
+/* Styles for VP1147 site
+Nada para ver aqui vp1147 */
+
+body {
+	background-color: #060606;
+}
+
+p.title {
+	border-style: solid;
+	border-radius: 20px 0px 20px ;
+	background: #aaffaa;
+	border-color: #aaffaa;
+	padding: 20px;
+	font-family: monospace;
+	font-size: 32px;
+	font-color: #ffffff;
+}
+
+p.subtitle {
+	padding: 20px;
+	border-style: solid;
+	border-radius: 20px 0px 20px ;
+	background: #aaffaa;
+	border-color: #aaffaa;
+	font-family: monospace;
+	font-size: 16px;
+	font-color: #ffffff;
+}
