@@ -1,6 +1,6 @@
 const login = {
 	usuario: "paolo",
-	senha: "paolo123"
+	senha: "paolo"
 }
 
 function validarLogin() {
