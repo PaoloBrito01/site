@@ -1,5 +1,5 @@
 var Configuracao = {
-	velocidade: 39,
+	velocidade: 29,
 	tempoEstrelaAtiva: 5000,
 	largura:15
 }
