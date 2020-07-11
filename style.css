@@ -83,3 +83,8 @@ p.subtitle {
 	font-size: 16px;
 	font-color: #ffffff;
 }
+if (dialog limite da tela) {
+   window.scroll(true);
+} else {
+   window.scroll(false);
+}
