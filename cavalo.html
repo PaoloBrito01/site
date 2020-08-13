@@ -14,7 +14,20 @@
 
 <h2>O CAVALO</h2>
 <img src="imagens/cavalo.jpg">
-<BGSOUND src="cavalomusic.wav" loop=infinite>
+
+	<audio id="musica">
+  <source src="cavalomusic.wav" type="audio/wav">
+</audio>
+
+<h1 onmouseover="mouseOver()">O CAVALO</h1>
+<script>
+var x = document.getElementById("musica"); 
+
+function mouseOver() { 
+    x.play(); 
+} 
+</script>	
+
 
 </body>
 </html>
