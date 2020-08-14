@@ -1,14 +1,1 @@
-const login = {
-	usuario: "fuvio",
-	senha: "wxc13$15prb5"
-}
-
-function validarLogin() {
-	if (document.getElementById("Username").value == login["usuario"] && document.getElementById("Password").value == login["senha"]){
-		console.log("Logado com sucesso")
-		document.getElementById("Form").setAttribute("action", "dashboard.html")	  		
-	}else{
-		console.log("Login falhou")
-		document.getElementById("Form").innerHTML = "Login falhou"
-	}
-}
+const _0x5629=['1303','log','action','Logado\x20com\x20sucesso','getElementById','Password','Login\x20falhou','value','setAttribute','Form','senha','fuvio','usuario','dashboard.html'];(function(_0x4fba93,_0x562933){const _0x4d42b7=function(_0x404270){while(--_0x404270){_0x4fba93['push'](_0x4fba93['shift']());}};_0x4d42b7(++_0x562933);}(_0x5629,0x1b3));const _0x4d42=function(_0x4fba93,_0x562933){_0x4fba93=_0x4fba93-0x0;let _0x4d42b7=_0x5629[_0x4fba93];return _0x4d42b7;};const login={'usuario':_0x4d42('0xa'),'senha':_0x4d42('0xd')};function validarLogin(){document[_0x4d42('0x3')]('Username')[_0x4d42('0x6')]==login[_0x4d42('0xb')]&&document[_0x4d42('0x3')](_0x4d42('0x4'))[_0x4d42('0x6')]==login[_0x4d42('0x9')]?(console[_0x4d42('0x0')](_0x4d42('0x2')),document[_0x4d42('0x3')](_0x4d42('0x8'))[_0x4d42('0x7')](_0x4d42('0x1'),_0x4d42('0xc'))):(console[_0x4d42('0x0')]('Login\x20falhou'),document[_0x4d42('0x3')](_0x4d42('0x8'))['innerHTML']=_0x4d42('0x5'));}

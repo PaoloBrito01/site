@@ -1,8 +1,11 @@
+/*
+Pq vieste aqui vp1147?
+*/
 body {
   padding: 20px; 
   text-align:center;
 }
-
+/*Tamanho do quadrado */
 .container {
   width: 90px;
   height: 90px;
@@ -18,6 +21,7 @@ body {
   transform: rotateZ(360deg);
  }
 }
+/* Rotação da imagem */
 img:hover{
 -ms-transform: rotate(-250deg);
 -webkit-transform: rotate(-250deg);
