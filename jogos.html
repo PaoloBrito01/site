@@ -3,6 +3,35 @@
 <head>
 <a href="https://fuviolinux.github.io/site/jogos2.html">Flapy</a>
 <body>
+  <script type="text/javascript">
+function startTime()
+{
+var today=new Date();
+var h=today.getHours();
+var m=today.getMinutes();
+var s=today.getSeconds();
+// adiciona um zero na frente dos numeros <10.
+m=checkTime(m);
+s=checkTime(s);
+document.getElementById('txt').innerHTML=h+":"+m+":"+s;
+t=setTimeout('startTime()',500);
+
+}
+
+function checkTime(i)
+{
+if (i<10)
+  {
+  i="0" + i;
+  }
+return i;
+}
+</script>
+
+
+<div id="txt">
+<script type="text/javascript">document.write(startTime())</script>
+</div>
 <SCRIPT>
 
 /*
